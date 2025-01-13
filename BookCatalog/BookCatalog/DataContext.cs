@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BookCatalog
 {
-    // configuring database
+    // configuring Sql database
     public class DataContext : DbContext
     {
         public DbSet<Book> Books { get; set; }

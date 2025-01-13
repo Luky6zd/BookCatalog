@@ -17,6 +17,7 @@
         public int MembershipNumber { get; set; }
         public int PIN { get; set; }
 
+        public ICollection<Book> Books { get; set; } = new List<Book>();
 
     }
 }
