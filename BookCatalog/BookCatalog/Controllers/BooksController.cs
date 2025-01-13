@@ -48,7 +48,7 @@ namespace BookCatalog.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutBook(int id, Book book)
         {
-            if (id != book.Id)
+            if (id != book.BookId)
             {
                 return BadRequest();
             }
@@ -81,7 +81,7 @@ namespace BookCatalog.Controllers
             _context.Books.Add(book);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetBook", new { id = book.Id }, book);
+            return CreatedAtAction("GetBook", new { id = book.BookId }, book);
         }
 
         // DELETE: api/Books/5
@@ -102,7 +102,7 @@ namespace BookCatalog.Controllers
 
         private bool BookExists(int id)
         {
-            return _context.Books.Any(e => e.Id == id);
+            return _context.Books.Any(e => e.BookId == id);
         }
     }
 }

@@ -3,27 +3,55 @@
   "WorkspaceRootPath": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\bookcatalog\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250113184008_AddedBookExample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookCatalog\\Migrations\\20250113184008_AddedBookExample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\bookcatalog\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\bookcatalog.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\bookcatalog.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\bookcatalog\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\models\\bookexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\bookexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\bookcatalog\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250113181645_RemovedLibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookCatalog\\Migrations\\20250113181645_RemovedLibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250113175348_BookList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookCatalog\\Migrations\\20250113175348_BookList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\Luky\\Desktop\\Nova mapa\\LibraryProject\\LibraryShared\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\Luky\\Desktop\\Nova mapa\\LibraryProject\\LibraryShared\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\bookcatalog.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\bookcatalog.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\bookcatalog\\bookcatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -32,14 +60,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\bookcatalog\\migrations\\20241221102749_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\migrations\\20241221102749_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\bookcatalog\\models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\bookcatalog\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\Luky\\Desktop\\Nova mapa\\LibraryProject\\LibraryShared\\Models\\Book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -52,30 +72,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "BookCatalog\\Controllers\\BooksController.cs",
-              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "BookCatalog\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T16:34:06.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "DataContext.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DataContext.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DataContext.cs",
               "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DataContext.cs",
               "RelativeToolTip": "BookCatalog\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-20T17:49:11.28Z",
               "IsPinned": true,
@@ -83,14 +90,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookCatalog",
-              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\BookCatalog.csproj",
-              "RelativeDocumentMoniker": "BookCatalog\\BookCatalog.csproj",
-              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\BookCatalog.csproj",
-              "RelativeToolTip": "BookCatalog\\BookCatalog.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-13T16:25:14.073Z",
+              "DocumentIndex": 0,
+              "Title": "20250113184008_AddedBookExample.cs",
+              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250113184008_AddedBookExample.cs",
+              "RelativeDocumentMoniker": "BookCatalog\\Migrations\\20250113184008_AddedBookExample.cs",
+              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250113184008_AddedBookExample.cs",
+              "RelativeToolTip": "BookCatalog\\Migrations\\20250113184008_AddedBookExample.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T18:40:08.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250113181645_RemovedLibrary.cs",
+              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250113181645_RemovedLibrary.cs",
+              "RelativeDocumentMoniker": "BookCatalog\\Migrations\\20250113181645_RemovedLibrary.cs",
+              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250113181645_RemovedLibrary.cs",
+              "RelativeToolTip": "BookCatalog\\Migrations\\20250113181645_RemovedLibrary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T18:16:45.276Z",
               "EditorCaption": ""
             },
             {
@@ -103,7 +124,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "BookExample.cs",
+              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\BookExample.cs",
+              "RelativeDocumentMoniker": "BookCatalog\\Models\\BookExample.cs",
+              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\BookExample.cs",
+              "RelativeToolTip": "BookCatalog\\Models\\BookExample.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:59:03.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250113175348_BookList.cs",
+              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250113175348_BookList.cs",
+              "RelativeDocumentMoniker": "BookCatalog\\Migrations\\20250113175348_BookList.cs",
+              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250113175348_BookList.cs",
+              "RelativeToolTip": "BookCatalog\\Migrations\\20250113175348_BookList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:53:48.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "BookCatalog\\Models\\Author.cs",
+              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\Author.cs",
+              "RelativeToolTip": "BookCatalog\\Models\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:53:40.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Repositories\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "BookCatalog\\Repositories\\IBookRepository.cs",
+              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Repositories\\IBookRepository.cs",
+              "RelativeToolTip": "BookCatalog\\Repositories\\IBookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:50:26.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "BookCatalog\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "BookCatalog\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAIwGgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:34:06.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookCatalog",
+              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\BookCatalog.csproj",
+              "RelativeDocumentMoniker": "BookCatalog\\BookCatalog.csproj",
+              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\BookCatalog.csproj",
+              "RelativeToolTip": "BookCatalog\\BookCatalog.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-13T16:25:14.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "BookRepository.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Repositories\\BookRepository.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Repositories\\BookRepository.cs",
@@ -116,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "BookCatalog",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\BookCatalog.csproj",
               "RelativeDocumentMoniker": "BookCatalog\\BookCatalog.csproj",
@@ -128,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "20241221102749_InitialMigration.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20241221102749_InitialMigration.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Migrations\\20241221102749_InitialMigration.cs",
@@ -140,37 +238,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Library.cs",
-              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\Library.cs",
-              "RelativeDocumentMoniker": "BookCatalog\\Models\\Library.cs",
-              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\Library.cs",
-              "RelativeToolTip": "BookCatalog\\Models\\Library.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T17:53:08.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\User.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Models\\User.cs",
               "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\User.cs",
               "RelativeToolTip": "BookCatalog\\Models\\User.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA5AAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA9wAMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T17:30:55.798Z"
+              "WhenOpened": "2024-12-20T17:30:55.798Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\Book.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Models\\Book.cs",
               "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\Book.cs",
               "RelativeToolTip": "BookCatalog\\Models\\Book.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA3wBEAAABlAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-20T17:09:48.309Z",
               "EditorCaption": ""
@@ -198,7 +285,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\Nova mapa\\LibraryProject\\LibraryShared\\Models\\User.cs",
               "RelativeDocumentMoniker": "..\\..\\Nova mapa\\LibraryProject\\LibraryShared\\Models\\User.cs",
@@ -211,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\Nova mapa\\LibraryProject\\LibraryShared\\Models\\Book.cs",
               "RelativeDocumentMoniker": "..\\..\\Nova mapa\\LibraryProject\\LibraryShared\\Models\\Book.cs",

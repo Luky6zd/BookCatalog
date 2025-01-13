@@ -4,6 +4,7 @@ using BookCatalog;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookCatalog.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20250113175348_BookList")]
+    partial class BookList
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -53,11 +56,14 @@ namespace BookCatalog.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LastName")
+                    b.Property<int?>("LibrariesLibraryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Surname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -66,7 +72,9 @@ namespace BookCatalog.Migrations
 
                     b.HasKey("AuthorId");
 
-                    b.ToTable("Authors");
+                    b.HasIndex("LibrariesLibraryId");
+
+                    b.ToTable("Author");
                 });
 
             modelBuilder.Entity("BookCatalog.Models.Book", b =>
@@ -89,6 +97,13 @@ namespace BookCatalog.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ISBN")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("LibraryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Press")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -101,38 +116,36 @@ namespace BookCatalog.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Year")
                         .HasColumnType("int");
 
                     b.HasKey("BookId");
 
+                    b.HasIndex("LibraryId");
+
+                    b.HasIndex("UserId");
+
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("BookCatalog.Models.BookExample", b =>
+            modelBuilder.Entity("BookCatalog.Models.Library", b =>
                 {
-                    b.Property<int>("BookExampleId")
+                    b.Property<int>("LibraryId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BookExampleId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LibraryId"));
 
-                    b.Property<int>("BookId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ISBN")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.HasKey("LibraryId");
 
-                    b.HasKey("BookExampleId");
-
-                    b.HasIndex("BookId");
-
-                    b.ToTable("BookExamples");
+                    b.ToTable("Libraries");
                 });
 
             modelBuilder.Entity("BookCatalog.Models.User", b =>
@@ -206,20 +219,35 @@ namespace BookCatalog.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("BookCatalog.Models.BookExample", b =>
+            modelBuilder.Entity("BookCatalog.Models.Author", b =>
                 {
-                    b.HasOne("BookCatalog.Models.Book", "Book")
-                        .WithMany("BookExamples")
-                        .HasForeignKey("BookId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("BookCatalog.Models.Library", "Libraries")
+                        .WithMany()
+                        .HasForeignKey("LibrariesLibraryId");
 
-                    b.Navigation("Book");
+                    b.Navigation("Libraries");
                 });
 
             modelBuilder.Entity("BookCatalog.Models.Book", b =>
                 {
-                    b.Navigation("BookExamples");
+                    b.HasOne("BookCatalog.Models.Library", "Library")
+                        .WithMany()
+                        .HasForeignKey("LibraryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BookCatalog.Models.User", null)
+                        .WithMany("Books")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Library");
+                });
+
+            modelBuilder.Entity("BookCatalog.Models.User", b =>
+                {
+                    b.Navigation("Books");
                 });
 #pragma warning restore 612, 618
         }
