@@ -11,9 +11,9 @@ namespace BookCatalog
         public DbSet<BookExample> BookExamples { get; set; }
         public DbSet<User> Users { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder builderDB)
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
-            builderDB.UseSqlServer("Data Source=localhost; Initial Catalog=bookcatalog; Integrated Security=true; TrustServerCertificate=true");
+
         }
 
     }
