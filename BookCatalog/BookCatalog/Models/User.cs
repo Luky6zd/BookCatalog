@@ -18,5 +18,9 @@
         public int MembershipNumber { get; set; }
         public int PIN { get; set; }
 
+        public string Password { get; set; } = string.Empty;
+
+        public List<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();   
+
     }
 }
