@@ -6,13 +6,13 @@ namespace BookCatalog.DTOs_Book
     public class BookDTO
     {
         [Required]
-        public string Title { get; set; } = string.Empty;
+        public string Title { get; set; } = null!;;
 
         [Required]
-        public AuthorDTO? Author { get; set; }
+        public string Author { get; set; } = null!;
 
         [StringLength(15)]
-        public string Genre { get; set; } = string.Empty;
+        public string Genre { get; set; } = null!;
 
         [StringLength(10)]
         public string Status { get; set; } = null!;

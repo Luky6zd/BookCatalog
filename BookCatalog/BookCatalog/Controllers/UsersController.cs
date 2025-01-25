@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BookCatalog;
 using BookCatalog.Models;
+using BookCatalog.DTOs_User;
+using BookCatalog.Mappers;
+using BookCatalog.DTO_s;
 
 namespace BookCatalog.Controllers
 {
@@ -21,16 +24,17 @@ namespace BookCatalog.Controllers
             _context = context;
         }
 
-        // GET: api/Users
+        // GET: api/Users/all
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
+        public async Task<ActionResult<IEnumerable<UserDTO>>> GetUsers()
         {
-            return await _context.Users.ToListAsync();
+            List<User> users = await _context.Users.ToListAsync();
+            return users.Select(user => user.ToUserDTO()).ToList();
         }
 
         // GET: api/Users/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(int id)
+        public async Task<ActionResult<UserDetailDTO>> GetUser(int id)
         {
             var user = await _context.Users.FindAsync(id);
 
@@ -39,20 +43,27 @@ namespace BookCatalog.Controllers
                 return NotFound();
             }
 
-            return user;
+            return user.ToUserDetailDTO();
         }
 
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(int id, User user)
+        public async Task<IActionResult> PutUser(int id, UserUpdateDTO userDTO)
         {
-            if (id != user.UserId)
+            if (id != userDTO.UserUpdateDTOId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(user).State = EntityState.Modified;
+            User? user = await _context.Users.FindAsync(id);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            _context.Entry(user).CurrentValues.SetValues(userDTO);
 
             try
             {
@@ -76,8 +87,9 @@ namespace BookCatalog.Controllers
         // POST: api/Users
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
+        public async Task<ActionResult<User>> PostUser(UserCreateDTO userDTO)
         {
+            User user = userDTO.ToUser();
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
@@ -89,6 +101,7 @@ namespace BookCatalog.Controllers
         public async Task<IActionResult> DeleteUser(int id)
         {
             var user = await _context.Users.FindAsync(id);
+
             if (user == null)
             {
                 return NotFound();

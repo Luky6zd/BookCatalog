@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BookCatalog;
 using BookCatalog.Models;
+using BookCatalog.DTOs_BookExample;
+using BookCatalog.Mappers;
 
 namespace BookCatalog.Controllers
 {
@@ -23,14 +25,15 @@ namespace BookCatalog.Controllers
 
         // GET: api/BookExamples
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<BookExample>>> GetBookExamples()
+        public async Task<ActionResult<IEnumerable<BookExampleDTO>>> GetBookExamples()
         {
-            return await _context.BookExamples.ToListAsync();
+            List<BookExample> bookExamples = await _context.BookExamples.ToListAsync();
+            return bookExamples.Select(bookEx => bookEx.ToBookExampleDTO()).ToList(); 
         }
 
         // GET: api/BookExamples/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<BookExample>> GetBookExample(int id)
+        public async Task<ActionResult<BookExampleDetailDTO>> GetBookExample(int id)
         {
             var bookExample = await _context.BookExamples.FindAsync(id);
 
@@ -39,20 +42,27 @@ namespace BookCatalog.Controllers
                 return NotFound();
             }
 
-            return bookExample;
+            return bookExample.ToBookExampleDetailDTO();
         }
 
         // PUT: api/BookExamples/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutBookExample(int id, BookExample bookExample)
+        public async Task<IActionResult> PutBookExample(int id, BookExampleUpdateDTO bookExampleDTO)
         {
-            if (id != bookExample.BookExampleId)
+            if (id != bookExampleDTO.BookExampleId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(bookExample).State = EntityState.Modified;
+            BookExample? bookExample = await _context.BookExamples.FindAsync(id);
+
+            if (bookExample == null)
+            {
+                return NotFound();
+            }
+
+            _context.Entry(bookExample).CurrentValues.SetValues(bookExampleDTO);
 
             try
             {
@@ -76,8 +86,9 @@ namespace BookCatalog.Controllers
         // POST: api/BookExamples
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<BookExample>> PostBookExample(BookExample bookExample)
+        public async Task<ActionResult<BookExample>> PostBookExample(BookExampleCreateDTO bookExampleDTO)
         {
+            BookExample bookExample = bookExampleDTO.ToBookExample();
             _context.BookExamples.Add(bookExample);
             await _context.SaveChangesAsync();
 
@@ -89,6 +100,7 @@ namespace BookCatalog.Controllers
         public async Task<IActionResult> DeleteBookExample(int id)
         {
             var bookExample = await _context.BookExamples.FindAsync(id);
+
             if (bookExample == null)
             {
                 return NotFound();

@@ -35,7 +35,7 @@ namespace BookCatalog.Controllers
 
         // GET: api/Authors/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Author>> GetAuthor(int id)
+        public async Task<ActionResult<AuthorDetailDTO>> GetAuthor(int id)
         {
             var author = await _context.Authors.FindAsync(id);
 
@@ -44,26 +44,33 @@ namespace BookCatalog.Controllers
                 return NotFound();
             }
 
-            return author;
+            return author.ToAuthorDetailDTO();
         }
 
         // PUT: api/Authors/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutAuthor(int id, Author author)
+        public async Task<IActionResult> PutAuthor(int id, AuthorUpdateDTO authorDTO)
         {
-            if (id != author.AuthorId)
+            if (id != authorDTO.AuthorUpdateDTOId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(author).State = EntityState.Modified;
+            Author? author = await _context.Authors.FindAsync(id);
+
+            if (author == null)
+            {
+                return NotFound();
+            }
+
+            _context.Entry(author).CurrentValues.SetValues(authorDTO);
 
             try
             {
                 await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
+            } 
+            catch
             {
                 if (!AuthorExists(id))
                 {
@@ -73,16 +80,18 @@ namespace BookCatalog.Controllers
                 {
                     throw;
                 }
-            }
 
+            }
+            
             return NoContent();
         }
 
         // POST: api/Authors
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Author>> PostAuthor(Author author)
+        public async Task<ActionResult<Author>> PostAuthor(AuthorCreateDTO authorDTO)
         {
+            Author author = authorDTO.ToAuthor();
             _context.Authors.Add(author);
             await _context.SaveChangesAsync();
 
@@ -94,6 +103,7 @@ namespace BookCatalog.Controllers
         public async Task<IActionResult> DeleteAuthor(int id)
         {
             var author = await _context.Authors.FindAsync(id);
+
             if (author == null)
             {
                 return NotFound();

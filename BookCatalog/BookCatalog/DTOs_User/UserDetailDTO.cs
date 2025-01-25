@@ -1,14 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BookCatalog.DTO_s
+namespace BookCatalog.DTOs_User
 {
-    public class UserCreateDTO
+    public class UserDetailDTO
     {
         [Key]
-        public int UserId { get; set; }
-
-        [Required]
-        [StringLength(15)]
+        public int UserDetailDTOId { get; set; }
         public string Username { get; set; } = null!;
 
         [Required]
@@ -16,10 +13,7 @@ namespace BookCatalog.DTO_s
         public string Email { get; set; } = null!;
 
         [Required]
-        [StringLength(8)]
         public string Password { get; set; } = null!;
-
-        public int PhoneNumber { get; set; }
-
+        public string Role { get; set; } = null!;
     }
 }

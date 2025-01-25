@@ -3,47 +3,49 @@ using BookCatalog.Models;
 
 namespace BookCatalog.Mappers
 {
-    public class BookMapper
+    public static class BookMapper
     {
-        public static BookDetailDTO MapBookToBookDetailDTO(Book book)
+        public static BookDTO ToBookDTO(this Book book)
+        {
+            return new BookDTO
+            {
+                Title = book.Title,
+                Author = book.Author,
+                Genre = book.Genre,
+                Status = book.Status
+            };
+        }
+        public static BookDetailDTO ToBookDetailDTO(this Book book)
         {
             return new BookDetailDTO
             {
-                
-                //Name = book.Name,
-                Title = book.Title
+                Title = book.Title,
+                Author = book.Author,
+                Genre = book.Genre,
+                Status = book.Status,
+                Year = book.Year
             };
         }
 
-        public static Book MapBookCreateDTOToBook(BookCreateDTO bookCreateDTO)
+        public static Book ToBook(this BookCreateDTO dto)
         {
             return new Book
             {
-                //Name = bookCreateDTO.Name,
-                Title = bookCreateDTO.Title,
-                Genre = bookCreateDTO.Genre
+                Title = dto.Title,
+                Author = dto.Author,
+                Genre = dto.Genre
             };
         }
 
-        public static Book MapBookUpdateDTOToBook(BookUpdateDTO bookUpdateDTO)
+        public static Book ToBook(this BookUpdateDTO dto)
         {
             return new Book
             {
-                //Name = bookUpdateDTO.Name,
-                Title = bookUpdateDTO.Title,
-                Genre = bookUpdateDTO.Genre
+                Title = dto.Title,
+                Author = dto.Author,
+                Genre = dto.Genre,
+                Status = dto.Status
             };
         }
-
-        public static Book MapBookExampleToBook(BookExample bookExample)
-        {
-            return new Book
-            {
-                //Name = bookExample.Name,
-                Title = bookExample.Book?.Title,
-                Genre = bookExample.Book?.Genre
-            };
-        }
-
     }
 }

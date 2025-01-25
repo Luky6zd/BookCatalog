@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BookCatalog;
 using BookCatalog.Models;
+using BookCatalog.DTOs_Book;
+using BookCatalog.Mappers;
 
 namespace BookCatalog.Controllers
 {
@@ -25,15 +27,16 @@ namespace BookCatalog.Controllers
         // get all books
         // GET: api/Books
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Book>>> GetBooks()
+        public async Task<ActionResult<IEnumerable<BookDTO>>> GetBooks()
         {
-            return await _context.Books.ToListAsync();
+            List<Book> books = await _context.Books.ToListAsync();
+            return books.Select(book => book.ToBookDTO()).ToList();
         }
 
         // get 1 book
         // GET: api/Books/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Book>> GetBook(int id)
+        public async Task<ActionResult<BookDetailDTO>> GetBook(int id)
         {
             var book = await _context.Books.FindAsync(id);
 
@@ -42,20 +45,27 @@ namespace BookCatalog.Controllers
                 return NotFound();
             }
 
-            return book;
+            return book.ToBookDetailDTO();
         }
 
         // PUT: api/Books/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutBook(int id, Book book)
+        public async Task<IActionResult> PutBook(int id, BookUpdateDTO bookDTO)
         {
-            if (id != book.BookId)
+            if (id != bookDTO.BookUpdateDTOId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(book).State = EntityState.Modified;
+            Book? book = await _context.Books.FindAsync(id);
+
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            _context.Entry(book).CurrentValues.SetValues(bookDTO);
 
             try
             {
@@ -78,8 +88,9 @@ namespace BookCatalog.Controllers
 
         // POST: api/Books
         [HttpPost]
-        public async Task<ActionResult<Book>> PostBook(Book book)
+        public async Task<ActionResult<Book>> PostBook(BookCreateDTO bookDTO)
         {
+            Book book = bookDTO.ToBook();
             _context.Books.Add(book);
             await _context.SaveChangesAsync();
 
@@ -91,6 +102,7 @@ namespace BookCatalog.Controllers
         public async Task<IActionResult> DeleteBook(int id)
         {
             var book = await _context.Books.FindAsync(id);
+
             if (book == null)
             {
                 return NotFound();

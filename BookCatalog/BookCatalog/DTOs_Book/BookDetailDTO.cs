@@ -10,7 +10,8 @@ namespace BookCatalog.DTOs_Book
         public string Title { get; set; } = null!;
 
         [Required]
-        public AuthorDTO? Author { get; set; }
+        public AuthorDTO? Authors { get; set; }
+        public string Author { get; set; } = null!;
 
         public string Genre { get; set; } = null!;
 
