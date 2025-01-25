@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "W145kvluX+vV0GUahibnJANUeHD2iFeS/peRv5K9hng=",
+  "Hash": "WyMMxNpOqfNKmm27HokYGw7Kv4nScLD7ptGmoBtvbIE=",
   "Source": "BookCatalog",
   "BasePath": "_content/BookCatalog",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

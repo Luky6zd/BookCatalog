@@ -1,4 +1,4 @@
-﻿using BookCatalog.DTO_s;
+﻿using BookCatalog.DTOs_Book;
 using BookCatalog.Models;
 
 namespace BookCatalog.Mappers
@@ -9,7 +9,7 @@ namespace BookCatalog.Mappers
         {
             return new BookDetailDTO
             {
-                BookDetailId = book.BookId,
+                
                 //Name = book.Name,
                 Title = book.Title
             };
@@ -29,7 +29,6 @@ namespace BookCatalog.Mappers
         {
             return new Book
             {
-                BookId = bookUpdateDTO.BookId,
                 //Name = bookUpdateDTO.Name,
                 Title = bookUpdateDTO.Title,
                 Genre = bookUpdateDTO.Genre
@@ -40,7 +39,6 @@ namespace BookCatalog.Mappers
         {
             return new Book
             {
-                BookId = bookExample.BookId,
                 //Name = bookExample.Name,
                 Title = bookExample.Book?.Title,
                 Genre = bookExample.Book?.Genre

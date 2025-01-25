@@ -1,21 +1,20 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BookCatalog.DTO_s
+
+namespace BookCatalog.DTOs_Book
 {
     public class BookCreateDTO
     {
-        [Key]
-        public int BookId { get; set; }
+        
         [Required]
-        [StringLength(15)]
-        public string Name { get; set; } = null!;
-
-        [Required]
+        [StringLength(20)]
         public string Title { get; set; } = null!;
 
         [Required]
-        [StringLength(8)]
+        [StringLength(15)]
         public string Genre { get; set; } = null!;
-        
+
+        public List<int> AuthorIds { get; set; } = new List<int>();
+
     }
 }

@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BookCatalog;
 using BookCatalog.Models;
+using BookCatalog.DTOs_Author;
+using BookCatalog.Mappers;
 
 namespace BookCatalog.Controllers
 {
@@ -21,11 +23,14 @@ namespace BookCatalog.Controllers
             _context = context;
         }
 
-        // GET: api/Authors
+        // GET: api/Authors//all
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Author>>> GetAuthors()
+        public async Task<ActionResult<IEnumerable<AuthorDTO>>> GetAuthors()
         {
-            return await _context.Authors.ToListAsync();
+            List<Author> authors = await _context.Authors.ToListAsync();
+            return authors.Select(author => author.ToAuthorDTO()).ToList();
+
+
         }
 
         // GET: api/Authors/5

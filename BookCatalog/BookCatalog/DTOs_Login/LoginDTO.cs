@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BookCatalog.DTO_s
+namespace BookCatalog.DTOs_Login
 {
     public class LoginDTO
     {
