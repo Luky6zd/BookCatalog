@@ -7,20 +7,26 @@ using BookCatalog.Services;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
+// 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services to the container
 builder.Services.AddControllers();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new() { Title = "BookCatalog", Version = "v1" });
+});
+
+// Add Swagger service
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// pozivanje servisa
+// calling SQL database service
 builder.Services.AddDbContext<BookCatalog.DataContext>(options =>
 {
     options.UseSqlServer("Data Source=localhost; Initial Catalog=bookcatalog; Integrated Security=true; TrustServerCertificate=true");
 });
-
 
 
 builder.Services.AddSwaggerGen(options =>
@@ -46,9 +52,9 @@ builder.Services.AddSwaggerGen(options =>
                     Id = "Bearer"
                 }
             },
+
             Array.Empty<string>()
         }
-
 
     });
 });
@@ -70,20 +76,23 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+//builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline
+// Add Swagger middleware
 if (app.Environment.IsDevelopment())
-    {
-        app.UseSwagger();
-        app.UseSwaggerUI();
-    }
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
-    app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
-    app.UseAuthorization();
+app.UseAuthorization();
 
-    app.MapControllers();
+app.MapControllers();
 
-    app.Run();
+app.Run();
 

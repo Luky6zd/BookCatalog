@@ -15,7 +15,6 @@ namespace BookCatalog.Models
         public string Publisher { get; set; } = string.Empty;
         public string Press { get; set; } = string.Empty;
         public string Status { get; set; } = string.Empty;
-
         public int ISBN { get; set; }
 
 

@@ -288,3 +288,7 @@ D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\Micro
 D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\obj\Debug\net8.0\staticwebassets\msbuild.BookCatalog.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\JsonSubTypes.dll
+D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\Polly.dll
+D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\Polly.Core.dll
+D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\RestSharp.dll

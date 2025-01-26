@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.Models.Author, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.DTOs_Author.AuthorDTO, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "author",
-        "Type": "BookCatalog.Models.Author",
+        "Name": "authorDTO",
+        "Type": "BookCatalog.DTOs_Author.AuthorCreateDTO",
         "IsRequired": true
       }
     ],
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BookCatalog.Models.Author",
+        "Type": "BookCatalog.DTOs_Author.AuthorDetailDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -85,8 +85,8 @@
         "IsRequired": true
       },
       {
-        "Name": "author",
-        "Type": "BookCatalog.Models.Author",
+        "Name": "authorDTO",
+        "Type": "BookCatalog.DTOs_Author.AuthorUpdateDTO",
         "IsRequired": true
       }
     ],
@@ -118,7 +118,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.Models.BookExample, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.DTOs_BookExample.BookExampleDTO, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -137,8 +137,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "bookExample",
-        "Type": "BookCatalog.Models.BookExample",
+        "Name": "bookExampleDTO",
+        "Type": "BookCatalog.DTOs_BookExample.BookExampleCreateDTO",
         "IsRequired": true
       }
     ],
@@ -170,7 +170,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BookCatalog.Models.BookExample",
+        "Type": "BookCatalog.DTOs_BookExample.BookExampleDetailDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -194,8 +194,8 @@
         "IsRequired": true
       },
       {
-        "Name": "bookExample",
-        "Type": "BookCatalog.Models.BookExample",
+        "Name": "bookExampleDTO",
+        "Type": "BookCatalog.DTOs_BookExample.BookExampleUpdateDTO",
         "IsRequired": true
       }
     ],
@@ -218,6 +218,37 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BookCatalog.Pagination.BookPaginationController",
+    "Method": "GetBooks",
+    "RelativePath": "api/BookPagination",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.Models.Book, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "BookCatalog.Controllers.BooksController",
     "Method": "GetBooks",
     "RelativePath": "api/Books",
@@ -227,7 +258,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.Models.Book, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.DTOs_Book.BookDTO, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -246,8 +277,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "book",
-        "Type": "BookCatalog.Models.Book",
+        "Name": "bookDTO",
+        "Type": "BookCatalog.DTOs_Book.BookCreateDTO",
         "IsRequired": true
       }
     ],
@@ -279,7 +310,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BookCatalog.Models.Book",
+        "Type": "BookCatalog.DTOs_Book.BookDetailDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -303,8 +334,8 @@
         "IsRequired": true
       },
       {
-        "Name": "book",
-        "Type": "BookCatalog.Models.Book",
+        "Name": "bookDTO",
+        "Type": "BookCatalog.DTOs_Book.BookUpdateDTO",
         "IsRequired": true
       }
     ],
@@ -336,7 +367,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.Models.User, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.DTOs_User.UserDTO, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -355,8 +386,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "BookCatalog.Models.User",
+        "Name": "userDTO",
+        "Type": "BookCatalog.DTO_s.UserCreateDTO",
         "IsRequired": true
       }
     ],
@@ -388,7 +419,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BookCatalog.Models.User",
+        "Type": "BookCatalog.DTOs_User.UserDetailDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -412,8 +443,8 @@
         "IsRequired": true
       },
       {
-        "Name": "user",
-        "Type": "BookCatalog.Models.User",
+        "Name": "userDTO",
+        "Type": "BookCatalog.DTOs_User.UserUpdateDTO",
         "IsRequired": true
       }
     ],

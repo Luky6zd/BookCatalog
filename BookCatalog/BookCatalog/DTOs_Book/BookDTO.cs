@@ -6,7 +6,7 @@ namespace BookCatalog.DTOs_Book
     public class BookDTO
     {
         [Required]
-        public string Title { get; set; } = null!;;
+        public string Title { get; set; } = null!;
 
         [Required]
         public string Author { get; set; } = null!;

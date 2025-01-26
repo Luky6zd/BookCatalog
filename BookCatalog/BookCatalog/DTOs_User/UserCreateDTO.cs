@@ -5,7 +5,7 @@ namespace BookCatalog.DTO_s
     public class UserCreateDTO
     {
         [Key]
-        public int UserId { get; set; }
+        public int UserCreateDTOId { get; set; }
 
         [Required]
         [StringLength(15)]

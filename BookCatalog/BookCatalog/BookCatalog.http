@@ -1,6 +1,183 @@
-@BookCatalog_HostAddress = http://localhost:5041
+@BookCatalog_HostAddress = https://localhost:7127
 
 GET {{BookCatalog_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+# GET all authors
+GET {{BookCatalog_HostAddress}}/api/authors
+
+###
+
+# CREATE author 
+POST {{BookCatalog_HostAddress}}/api/authors
+Content-Type: application/json
+
+{
+   "name": "Mato",
+  "lastName": "Lovrak",
+  "title": "Vlak u snjegu",
+  "email": "user@example.com"
+}
+
+###
+
+# DELETE author by id
+@id=0
+DELETE {{BookCatalog_HostAddress}}/api/authors/{{id}}
+
+###
+
+# GET 1 author by id
+GET {{BookCatalog_HostAddress}}/api/authors/{{id}}
+
+###
+
+// UPDATE author by id
+PUT {{BookCatalog_HostAddress}}/api/authors/{{id}}
+Content-Type: application/json
+
+{
+  //AuthorUpdateDTO
+}
+
+###
+
+# GET all book examples
+GET {{BookCatalog_HostAddress}}/api/bookexamples
+
+###
+
+# CREATE book example
+POST {{BookCatalog_HostAddress}}/api/bookexamples
+Content-Type: application/json
+
+{
+  "author": "Mato",
+  "title": "Vlak u snjegu",
+  "description": "Knjiga o...",
+  "genre": "lektira",
+  "year": 2000,
+  "isbn": "12345678",
+  "status": "available"
+}
+
+###
+
+# DELETE book example by id
+DELETE {{BookCatalog_HostAddress}}/api/bookexamples/{{id}}
+
+###
+
+# GET 1 book by id
+GET {{BookCatalog_HostAddress}}/api/bookexamples/{{id}}
+
+###
+
+# UPDATE book example by id
+PUT {{BookCatalog_HostAddress}}/api/bookexamples/{{id}}
+Content-Type: application/json
+
+{
+  //BookExampleUpdateDTO
+}
+
+###
+
+# GET all books
+GET {{BookCatalog_HostAddress}}/api/books
+
+###
+
+# CREATE a book
+POST {{BookCatalog_HostAddress}}/api/books
+Content-Type: application/json
+
+{
+  "bookId": 2,
+  "author": "Mato Lovrak",
+  "title": "vlak u snjegu",
+  "description": "",
+  "genre": "Lektira",
+  "year": 0,
+  "publisher": "",
+  "press": "",
+  "status": "",
+  "isbn": 0,
+  "authors": [],
+  "bookExamples": []
+}
+
+###
+
+# DELETE a book
+DELETE {{BookCatalog_HostAddress}}/api/books/{{id}}
+
+###
+
+# GET 1 book by id
+GET {{BookCatalog_HostAddress}}/api/books/{{id}}
+
+###
+
+# UPDATE book
+PUT {{BookCatalog_HostAddress}}/api/books/{{id}}
+Content-Type: application/json
+
+{
+  //BookUpdateDTO
+}
+
+###
+
+# GET all users
+GET {{BookCatalog_HostAddress}}/api/users
+
+###
+
+# CREATE user
+POST {{BookCatalog_HostAddress}}/api/users
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "name": "",
+  "lastName": "",
+  "address": "",
+  "birthDate": "0001-01-01T00:00:00",
+  "age": 0,
+  "oib": 0,
+  "genre": "",
+  "phoneNumber": "",
+  "email": "user@example.com",
+  "status": "",
+  "membershipNumber": 0,
+  "pin": 0,
+  "username": "Luky",
+  "password": "********",
+  "refreshTokens": []
+}
+
+###
+
+# DELETE user by id
+DELETE {{BookCatalog_HostAddress}}/api/users/{{id}}
+
+###
+
+# GET 1 user by id
+GET {{BookCatalog_HostAddress}}/api/users/{{id}}
+
+###
+
+# UPDATE user by id
+PUT {{BookCatalog_HostAddress}}/api/users/{{id}}
+Content-Type: application/json
+
+{
+  //UserUpdateDTO
+}
+
+###
+
