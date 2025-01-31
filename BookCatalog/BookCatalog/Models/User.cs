@@ -1,6 +1,6 @@
 ﻿namespace BookCatalog.Models
 {
-    // defining user model
+    // defining User ORM (model)
     // only for authentification purposes
     public class User
     {
@@ -21,6 +21,10 @@
         public string Username { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
 
+        // collection of RefreshToken objects represents relationship between 1 User and many RefreshTokens
+        // -> one-to-many relationship
+        // -> initializes empty RefreshToken List to avoid null reference exception
+        // -> using for authentification purposes in JWT authentication
         public List<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();   
 
     }

@@ -7,9 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BookCatalog;
 using BookCatalog.Models;
-using BookCatalog.DTOs_User;
 using BookCatalog.Mappers;
-using BookCatalog.DTO_s;
+using BookCatalog.DTOs.DTOs_User;
 
 namespace BookCatalog.Controllers
 {

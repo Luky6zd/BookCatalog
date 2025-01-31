@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.DTOs_Author.AuthorDTO, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.DTOs.DTOs_Author.AuthorDTO, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "authorDTO",
-        "Type": "BookCatalog.DTOs_Author.AuthorCreateDTO",
+        "Type": "BookCatalog.DTOs.DTOs_Author.AuthorCreateDTO",
         "IsRequired": true
       }
     ],
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BookCatalog.DTOs_Author.AuthorDetailDTO",
+        "Type": "BookCatalog.DTOs.DTOs_Author.AuthorDetailDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -86,7 +86,7 @@
       },
       {
         "Name": "authorDTO",
-        "Type": "BookCatalog.DTOs_Author.AuthorUpdateDTO",
+        "Type": "BookCatalog.DTOs.DTOs_Author.AuthorUpdateDTO",
         "IsRequired": true
       }
     ],
@@ -118,7 +118,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.DTOs_BookExample.BookExampleDTO, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.DTOs.DTOs_BookExample.BookExampleDTO, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -138,7 +138,7 @@
     "Parameters": [
       {
         "Name": "bookExampleDTO",
-        "Type": "BookCatalog.DTOs_BookExample.BookExampleCreateDTO",
+        "Type": "BookCatalog.DTOs.DTOs_BookExample.BookExampleCreateDTO",
         "IsRequired": true
       }
     ],
@@ -170,7 +170,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BookCatalog.DTOs_BookExample.BookExampleDetailDTO",
+        "Type": "BookCatalog.DTOs.DTOs_BookExample.BookExampleDetailDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -195,7 +195,7 @@
       },
       {
         "Name": "bookExampleDTO",
-        "Type": "BookCatalog.DTOs_BookExample.BookExampleUpdateDTO",
+        "Type": "BookCatalog.DTOs.DTOs_BookExample.BookExampleUpdateDTO",
         "IsRequired": true
       }
     ],
@@ -218,7 +218,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "BookCatalog.Pagination.BookPaginationController",
+    "ContainingType": "BookCatalog.Controllers.BookPaginationController",
     "Method": "GetBooks",
     "RelativePath": "api/BookPagination",
     "HttpMethod": "GET",
@@ -238,7 +238,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.Models.Book, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "BookCatalog.Pagination.PageResult\u00601[[BookCatalog.Models.Book, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -258,7 +258,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.DTOs_Book.BookDTO, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.DTOs.DTOs_Book.BookDTO, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -278,7 +278,7 @@
     "Parameters": [
       {
         "Name": "bookDTO",
-        "Type": "BookCatalog.DTOs_Book.BookCreateDTO",
+        "Type": "BookCatalog.DTOs.DTOs_Book.BookCreateDTO",
         "IsRequired": true
       }
     ],
@@ -310,7 +310,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BookCatalog.DTOs_Book.BookDetailDTO",
+        "Type": "BookCatalog.DTOs.DTOs_Book.BookDetailDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -335,7 +335,7 @@
       },
       {
         "Name": "bookDTO",
-        "Type": "BookCatalog.DTOs_Book.BookUpdateDTO",
+        "Type": "BookCatalog.DTOs.DTOs_Book.BookUpdateDTO",
         "IsRequired": true
       }
     ],
@@ -367,7 +367,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.DTOs_User.UserDTO, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookCatalog.DTOs.DTOs_User.UserDTO, BookCatalog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -387,7 +387,7 @@
     "Parameters": [
       {
         "Name": "userDTO",
-        "Type": "BookCatalog.DTO_s.UserCreateDTO",
+        "Type": "BookCatalog.DTOs.DTOs_User.UserCreateDTO",
         "IsRequired": true
       }
     ],
@@ -419,7 +419,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BookCatalog.DTOs_User.UserDetailDTO",
+        "Type": "BookCatalog.DTOs.DTOs_User.UserDetailDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -444,7 +444,7 @@
       },
       {
         "Name": "userDTO",
-        "Type": "BookCatalog.DTOs_User.UserUpdateDTO",
+        "Type": "BookCatalog.DTOs.DTOs_User.UserUpdateDTO",
         "IsRequired": true
       }
     ],

@@ -7,6 +7,7 @@ namespace BookCatalog
     // configuring Sql database
     public class DataContext : DbContext
     {
+        // DB set represents a table for each model in database
         public DbSet<Book> Books { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<BookExample> BookExamples { get; set; }

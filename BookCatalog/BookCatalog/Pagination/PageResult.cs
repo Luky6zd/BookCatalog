@@ -1,6 +1,9 @@
 ﻿
+using BookCatalog.Models;
+
 namespace BookCatalog.Pagination
 {
+    // generic paginaton model
     public class PageResult<T>
     {
         public IEnumerable<T> Items { get; set; }
@@ -8,22 +11,38 @@ namespace BookCatalog.Pagination
         public int TotalPages { get; set; }
         public int CurrentPage { get; set; }
         public int PageSize { get; set; }
-        public List<T> Items1 { get; }
+        public List<Book> Books { get; }
+        public int TotalBooks { get; }
         public int PageNumber { get; }
 
         public PageResult(IEnumerable<T> items, int totalCount, int totalPages, int currentPage, int pageSize)
         {
-            Items = items;
+            // avoid null reference exception by initializing empty List
+            Items = items ?? new List<T>();
             TotalCount = totalCount;
             TotalPages = (int)Math.Ceiling(totalCount / (double)pageSize);
             CurrentPage = currentPage;
             PageSize = pageSize;
         }
 
+        public PageResult(List<Book> books, int totalBooks, int pageNumber, int pageSize)
+        {
+            Books = books;
+            TotalBooks = totalBooks;
+            PageNumber = pageNumber;
+            PageSize = pageSize;
+        }
+
         public PageResult(List<T> items, int totalCount, int pageNumber, int pageSize)
         {
-            Items1 = items;
             TotalCount = totalCount;
+            PageNumber = pageNumber;
+            PageSize = pageSize;
+        }
+
+        public PageResult(List<Book> books, int pageNumber, int pageSize)
+        {
+            Books = books;
             PageNumber = pageNumber;
             PageSize = pageSize;
         }
