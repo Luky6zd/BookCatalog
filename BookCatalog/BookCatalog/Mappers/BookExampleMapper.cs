@@ -39,7 +39,9 @@ namespace BookCatalog.Mappers
             // mapping values from BookExampleCreateDTO to BookExample
             return new BookExample
             {
-               
+               BookId = dto.BookId,
+               Status = dto.Status,
+                ISBN = dto.ISBN
             };
         }
         // extension method -> maping BookExampleUpdateDTO to BookExample
