@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BookCatalog.DTOs.DTOs_User
+namespace BookCatalog.Auth_JWT.AuthDTOs
 {
+    // token request
     public class RefreshTokenRequest
     {
         [Required]

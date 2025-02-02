@@ -2,8 +2,10 @@
 
 namespace BookCatalog.DTOs.DTOs_User
 {
+    // user create (Data Transfer Object)
     public class UserCreateDTO
     {
+        // properties
         [Key]
         public int UserCreateDTOId { get; set; }
 

@@ -13,9 +13,8 @@
         public string Country { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
 
-        // navigation property (ICollection interface) -> represents relationship between 2 entities
-        // -> collection of Book objects represents relationship between 1 Author and many Books
-        // -> one-to-many relationship
+        // navigation property -> relationship between 2 entities
+        // -> collection of Book objects -> relationship between 1 Author and many Books
         public ICollection<Book> Books { get; set; } = new List<Book>();
 
     }

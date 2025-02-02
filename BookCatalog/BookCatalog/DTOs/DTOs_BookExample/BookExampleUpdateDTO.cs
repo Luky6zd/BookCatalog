@@ -2,8 +2,10 @@
 
 namespace BookCatalog.DTOs.DTOs_BookExample
 {
+    // book example update (Data Transfer Object)
     public class BookExampleUpdateDTO
     {
+        // properties
         [Key]
         public int BookExampleId { get; set; }
 

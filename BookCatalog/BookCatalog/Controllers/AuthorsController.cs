@@ -19,7 +19,7 @@ namespace BookCatalog.Controllers
     public class AuthorsController : ControllerBase
     {
         // readonly link/reference to database
-        // readonly means that reference can only be assigned once -> in constructor
+        // readonly -> reference can only be assigned once -> in constructor
         private readonly DataContext _context;
 
         // constructor
@@ -31,15 +31,15 @@ namespace BookCatalog.Controllers
         // GET: api/Authors//all
         [HttpGet]
         // api action/endoint -> get all authors from author dto table
-        // async method -> it can perform other operations while waiting for the operation to complete,
+        // async method -> perform other operations while waiting for the operation to complete,
         // doesn't block execution thread while waiting for database query
         // returs ActionResult -> different http response status codes
-        // returns IEnumerable<AuthorDTO> -> collection of AuthorDTO objects
+        // returns IEnumerable<AuthorDTO> -> List of AuthorDTO objects
         public async Task<ActionResult<IEnumerable<AuthorDTO>>> GetAuthors()
         {
-            // async method fetch all authors from database (using EF)
+            // async method fetch all authors from database
             List<Author> authors = await _context.Authors.ToListAsync();
-            // mapping authors to DTOs -> returns list (collection) of IEnumerable AuthorDTO as http response
+            // mapping authors to DTOs -> returns list of IEnumerable AuthorDTO as http response
             return authors.Select(author => author.ToAuthorDTO()).ToList();
         }
 
@@ -48,16 +48,16 @@ namespace BookCatalog.Controllers
         // api action/endpoint -> get 1 author by id from author detail dto table
         public async Task<ActionResult<AuthorDetailDTO>> GetAuthor(int id)
         {
-            // async retrieve single author by primary key/id from database
+            // async retrieve 1 author by primary key/id from database
             var author = await _context.Authors.FirstOrDefaultAsync(a => a.AuthorId == id);
 
-            // if author doesn't exist return status 404
+            // if author doesn't exist
             if (author == null)
             {
                 return NotFound("Author not found.");
             }
 
-            // check if id from URL request matches id from Author object
+            // if id from URL request matches id from Author
             if (id != author.AuthorId)
             {
                 return BadRequest("Id not valid.");
@@ -73,25 +73,25 @@ namespace BookCatalog.Controllers
         // handles HTTP PUT request for updating author
         public async Task<IActionResult> PutAuthor(int id, AuthorUpdateDTO authorDTO)
         {
-            // check if id from URL request matches id from AuthorUpdateDTO
+            // if id from URL request matches id from AuthorUpdateDTO
             if (id != authorDTO.AuthorUpdateDTOId)
             {
                 return BadRequest("Id not valid.");
             }
 
-            // async query that searches for author by id in database
+            // async query -> searches author by id in database
             // await -> database query runs async -> doesn't block execution of other operations
             // first or default -> returns first matching author or null (if none is found) 
             Author? author = await _context.Authors.FirstOrDefaultAsync(a => a.AuthorId == id);
 
-            // if author doesn't exist return status 404
+            // if author doesn't exist
             if (author == null)
             {
                 return NotFound();
             }
 
             // update author table with new values from AuthorUpdateDTO
-            // maps all matching properties from AuthorUpdateDTO to Author - only updates existing values match by name
+            // maps all matching properties from AuthorUpdateDTO to Author -> updates only existing values match by name
             _context.Entry(author).CurrentValues.SetValues(authorDTO);
 
             // try to save changes to database async 
@@ -102,7 +102,7 @@ namespace BookCatalog.Controllers
             // while handling potencial errors/exceptions
             catch
             {
-                // check if author exists in database, return status 404
+                // if author exists in database
                 if (!AuthorExists(id))
                 {
                     return NotFound();
@@ -113,7 +113,7 @@ namespace BookCatalog.Controllers
                     throw;
                 }
             }
-            // returns IActionResult -> http response with status 204
+            // returns ActionResult -> http response
             return NoContent();
         }
 
@@ -125,14 +125,14 @@ namespace BookCatalog.Controllers
         public async Task<ActionResult<Author>> PostAuthor(AuthorCreateDTO authorDTO)
         {
             //var author = new Author { Name = authorDTO.Name };
-            // converts AuthorCreateDTO to Author, then author is added to database
+            // converts AuthorCreateDTO to Author
             Author author = authorDTO.ToAuthor();
             // add author to database
             _context.Authors.Add(author);
             // save changes to database
             await _context.SaveChangesAsync();
 
-            // return 201 CreatedAtAction -> http response with new created author object
+            // return ActionResult -> http response with new created author object
             return CreatedAtAction("GetAuthor", new { id = author.AuthorId }, author);
         }
 
@@ -147,13 +147,13 @@ namespace BookCatalog.Controllers
             // returns first matching author or null (if none is found)
             var author = await _context.Authors.FirstOrDefaultAsync(a => a.AuthorId == id);
 
-            // check if author exists in database 
+            // if author exists in database 
             if (author == null)
             {
                 return NotFound("Author not found");
             }
 
-            // check if id from URL request matches id from Author
+            // if id from URL request matches id from Author
             if (id != author.AuthorId)
             {
                 return BadRequest("Id not valid");
@@ -164,11 +164,11 @@ namespace BookCatalog.Controllers
             // permanently deletes author from database
             await _context.SaveChangesAsync();
 
-            // returns IActionResult -> http response with status 204
+            // return ActionResult -> http response
             return NoContent();
         }
 
-        // check if author exists in database -> search by AuthorId that matches given id
+        // check if author exists -> search by AuthorId that matches id
         private bool AuthorExists(int id)
         {
             // returns true if author exists in database

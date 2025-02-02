@@ -1,8 +1,9 @@
 ﻿namespace BookCatalog.Pagination
 {
-    // adding pagination model
+    // pagination model
     public class PaginationModel
     {
+        // properties
         public int PaginationId { get; set; }
         public int PageNumber { get; set; } = 1;
 

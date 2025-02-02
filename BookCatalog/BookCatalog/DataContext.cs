@@ -14,7 +14,9 @@ namespace BookCatalog
         public DbSet<User> Users { get; set; }
         //public DbSet<PaginationModel> paginationModels { get; set; }
 
+        public DataContext() { }
 
+        // constructor
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
 

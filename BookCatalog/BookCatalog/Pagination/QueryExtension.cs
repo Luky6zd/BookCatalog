@@ -4,6 +4,7 @@ namespace BookCatalog.Pagination
 {
     public static class QueryExtension
     {
+        // extension method for pagination
         public static async Task<PageResult<T>> ToPageListAsync<T>(
             this IQueryable<T> source,
             int pageNumber,

@@ -2,6 +2,7 @@
 
 namespace BookCatalog.DTOs.DTOs_User
 {
+    // user detail (Data Transfer Object)
     public class UserDetailDTO
     {
         [Key]

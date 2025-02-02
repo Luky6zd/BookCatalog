@@ -292,3 +292,10 @@ D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\JsonS
 D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\Polly.dll
 D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\Polly.Core.dll
 D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\RestSharp.dll
+D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\Castle.Core.dll
+D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\Moq.dll
+D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\xunit.abstractions.dll
+D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\xunit.assert.dll
+D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\xunit.core.dll
+D:\Users\Luky\Desktop\BookCatalog\BookCatalog\BookCatalog\bin\Debug\net8.0\xunit.execution.dotnet.dll

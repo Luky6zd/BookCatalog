@@ -2,8 +2,11 @@
 
 namespace BookCatalog.DTOs.DTOs_BookExample
 {
+    // book example-copy of book (Data Transfer Object)
     public class BookExampleDTO
     {
+        // properties
+        [Key]
         public int BookExampleId { get; set; }
 
         [Required]

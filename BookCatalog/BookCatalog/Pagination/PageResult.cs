@@ -3,9 +3,10 @@ using BookCatalog.Models;
 
 namespace BookCatalog.Pagination
 {
-    // generic paginaton model
+    // generic pagination model
     public class PageResult<T>
     {
+        // items for current page
         public IEnumerable<T> Items { get; set; }
         public int TotalCount { get; set; }
         public int TotalPages { get; set; }
@@ -15,6 +16,7 @@ namespace BookCatalog.Pagination
         public int TotalBooks { get; }
         public int PageNumber { get; }
 
+        // constructors
         public PageResult(IEnumerable<T> items, int totalCount, int totalPages, int currentPage, int pageSize)
         {
             // avoid null reference exception by initializing empty List

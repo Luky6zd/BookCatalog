@@ -2,8 +2,10 @@
 
 namespace BookCatalog.DTOs.DTOs_Author
 {
+    // author update (Data Transfer Object)
     public class AuthorUpdateDTO
     {
+        // properties
         [Key]
         public int AuthorUpdateDTOId { get; set; }
         [Required]

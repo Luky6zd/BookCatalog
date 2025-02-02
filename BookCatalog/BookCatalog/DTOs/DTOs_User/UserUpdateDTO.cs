@@ -2,8 +2,10 @@
 
 namespace BookCatalog.DTOs.DTOs_User
 {
+    // user update (Data Transfer Object)
     public class UserUpdateDTO
     {
+        // properties
         [Key]
         public int UserUpdateDTOId { get; set; }
 
