@@ -16,16 +16,14 @@ namespace BookCatalog.Models
         public string Status { get; set; } = string.Empty;
         public int ISBN { get; set; }
 
-        // Interface ICollection -> collection of Author objects
-        // -> initializes empty Author list to avoid null reference exception
-        // relationship between 1 Book and many Authors
+        // initializes empty Author list to avoid null reference exception
+        // -> relationship between 1 Book and many Authors
         public ICollection<Author> Authors { get; set; } = new List<Author>();
 
-        // collection of BookExample objects
-        // -> initializes empty BookExample list to avoid null reference exception
         // relationship between 1 Author and many BookExamples
         public ICollection<BookExample> BookExamples { get; set; } = new List<BookExample>();
 
+  
     }
 }
 

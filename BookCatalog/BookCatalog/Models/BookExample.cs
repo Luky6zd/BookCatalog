@@ -12,7 +12,7 @@ namespace BookCatalog.Models
         // foreign key on Book -> 1 Book can have many BookExamples
         public int BookId { get; set; }
 
-        // Book? navigation property
+        // navigation property
         // relationship between many BookExamples and 1 Book
         public Book? Book { get; set; }
     }

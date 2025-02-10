@@ -23,11 +23,5 @@
         public string Username { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
 
-        // collection of RefreshToken -> relationship between 1 User and many RefreshTokens
-        // -> initializes empty RefreshToken List to avoid null reference exception
-        // -> using for authentification purposes in JWT authentication
-        // list of stored refresh tokens
-        public List<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();   
-
     }
 }

@@ -11,8 +11,6 @@ namespace BookCatalog.DTOs.DTOs_Book
         [StringLength(20)]
         public string Title { get; set; } = null!;
 
-        public string Author { get; set; } = null!;
-
         [Required]
         [StringLength(15)]
         public string Genre { get; set; } = null!;
@@ -20,9 +18,5 @@ namespace BookCatalog.DTOs.DTOs_Book
         [Key]
         public List<int> AuthorIds { get; set; } = new List<int>();
 
-        //internal static object ToBook(BookCreateDTO bookDTO)
-        //{
-        //   throw new NotImplementedException();
-        //}
     }
 }

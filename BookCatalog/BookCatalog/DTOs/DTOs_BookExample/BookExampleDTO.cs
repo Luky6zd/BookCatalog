@@ -12,8 +12,6 @@ namespace BookCatalog.DTOs.DTOs_BookExample
         [Required]
         public string Title { get; set; } = null!;
 
-        public string Author { get; set; } = null!;
-
         public string Genre { get; set; } = null!;
 
         public string ISBN { get; set; } = null!;

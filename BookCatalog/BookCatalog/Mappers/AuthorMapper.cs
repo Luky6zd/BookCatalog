@@ -6,31 +6,24 @@ namespace BookCatalog.Mappers
 {
     public static class AuthorMapper
     {
-        // extension method -> maping Author object (entity) to AuthorDTO
-        // keyword this -> this method is going to be called on any Author object, as part of Author's class
+        // extension method converts Author to AuthorDTO for api response
         public static AuthorDTO ToAuthorDTO(this Author author)
         {
-            // returns object type AuthorDTO
-            // creates new AuthorDTO object and assigns values from Author object
-            // converts Author entity to AuthorDTO for api response
             return new AuthorDTO
             {
-                AuthorDTOId = author.AuthorId, // mapping AuthorId to AuthorDTOId
+                AuthorDTOId = author.AuthorId,
                 Name = author.Name, 
                 LastName = author.LastName, 
                 Email = author.Email
             };
         }
 
-        // extension method -> maping Author object (entity) to AuthorDetailDTO
+        // extension method converts Author to AuthorDetailDTO for api response
         public static AuthorDetailDTO ToAuthorDetailDTO(this Author author)
         {
-            // returns object type AuthorDetailDTO
-            // creates new AuthorDetailDTO object and assigns values from Author object
-            // converts Author entity to AuthorDetailDTO for api response
             return new AuthorDetailDTO
             {
-                AuthorDetailDTOId = author.AuthorId, // mapping AuthorId to AuthorDetailDTOId
+                AuthorDetailDTOId = author.AuthorId,
                 Name = author.Name,
                 LastName = author.LastName,
                 Email = author.Email,
@@ -38,29 +31,23 @@ namespace BookCatalog.Mappers
             };
         }
 
-        // extension method -> maping AuthorCreateDTO to Author object (entity)
+        // extension method converts AuthorCreateDTO to Author for database
         public static Author ToAuthor(this AuthorCreateDTO dto)
         {
-            // returns object type Author
-            // creates new Author object and assigns values from AuthorCreateDTO object
-            // converts AuthorCreateDTO to Author entity for database
             return new Author
             {
-                Name = dto.Name, // mapping Name to Name
+                Name = dto.Name,
                 LastName = dto.LastName,
                 Email = dto.Email
             };
         }
 
-        // extension method -> maping AuthorUpdateDTO to Author object (entity)
+        // extension method converts AuthorUpdateDTO to Author for database
         public static Author ToAuthor(this AuthorUpdateDTO dto)
         {
-            // returns object type Author
-            // creates new Author object and assigns values from AuthorUpdateDTO object
-            // converts AuthorUpdateDTO to Author entity for database
             return new Author
             {
-                Name = dto.Name, // mapping Name to Name
+                Name = dto.Name,
                 LastName = dto.LastName,
                 Email = dto.Email
             };

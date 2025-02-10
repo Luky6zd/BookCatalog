@@ -13,8 +13,7 @@
         public string Country { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
 
-        // navigation property -> relationship between 2 entities
-        // -> collection of Book objects -> relationship between 1 Author and many Books
+        // navigation property -> relationship between 1 Author and many Books
         public ICollection<Book> Books { get; set; } = new List<Book>();
 
     }
