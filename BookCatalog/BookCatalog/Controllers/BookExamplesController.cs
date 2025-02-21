@@ -66,7 +66,9 @@ namespace BookCatalog.Controllers
                 return BadRequest("Id not valid.");
             }
 
-            BookExample? bookExample = await _context.BookExamples.FirstOrDefaultAsync(ex => ex.BookExampleId ==id);
+            BookExample? bookExample = await _context.BookExamples
+                .Include(ex => ex.Book)
+                .FirstOrDefaultAsync(ex => ex.BookExampleId == id);
 
             // if book example doesn't exist
             if (bookExample == null)

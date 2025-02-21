@@ -3,6 +3,66 @@
   "WorkspaceRootPath": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\controllers\\bookpaginationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\controllers\\bookpaginationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\controllers\\bookexamplescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\controllers\\bookexamplescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\models\\bookexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\bookexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_author\\authordetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_author\\authordetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_author\\authorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_author\\authorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_author\\authorupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_author\\authorupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\mappers\\authormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\mappers\\authormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_author\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_author\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\mappers\\bookmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\mappers\\bookmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_book\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_book\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_book\\bookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_book\\bookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,14 +87,6 @@
       "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\models\\bookexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\bookexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,16 +95,8 @@
       "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\mappers\\bookmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\mappers\\bookmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\mappers\\bookexamplemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\mappers\\bookexamplemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\mappers\\authormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\mappers\\authormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_user\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,56 +131,12 @@
       "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_bookexample\\bookexamplecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_book\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_book\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_book\\bookdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_book\\bookdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_book\\bookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_book\\bookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_author\\authorupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_author\\authorupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_author\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_author\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_author\\authordetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_author\\authordetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\dtos\\dtos_author\\authorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\dtos\\dtos_author\\authorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\controllers\\bookpaginationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\controllers\\bookpaginationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\controllers\\bookexamplescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\controllers\\bookexamplescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|solutionrelative:bookcatalog\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AA35B82-2FB9-4881-A2E8-7C88CB4AA7FD}|BookCatalog\\BookCatalog.csproj|d:\\users\\luky\\desktop\\bookcatalog\\bookcatalog\\bookcatalog\\migrations\\20250210160219_erasedtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -214,15 +214,15 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 103,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 47,
+          "SelectedChildIndex": 45,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "DataContext.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DataContext.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DataContext.cs",
@@ -231,18 +231,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-20T17:49:11.28Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 3,
               "Title": "AuthorsController.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\AuthorsController.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Controllers\\AuthorsController.cs",
               "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\AuthorsController.cs",
               "RelativeToolTip": "BookCatalog\\Controllers\\AuthorsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T09:25:36.449Z",
               "IsPinned": true,
@@ -250,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "BookExampleMapper.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Mappers\\BookExampleMapper.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Mappers\\BookExampleMapper.cs",
@@ -259,21 +258,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T16:51:00.668Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "20250210160219_erasedToken.cs",
-              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250210160219_erasedToken.cs",
-              "RelativeDocumentMoniker": "BookCatalog\\Migrations\\20250210160219_erasedToken.cs",
-              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250210160219_erasedToken.cs",
-              "RelativeToolTip": "BookCatalog\\Migrations\\20250210160219_erasedToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T16:02:20.447Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -294,6 +279,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250210160219_erasedToken.cs",
+              "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250210160219_erasedToken.cs",
+              "RelativeDocumentMoniker": "BookCatalog\\Migrations\\20250210160219_erasedToken.cs",
+              "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Migrations\\20250210160219_erasedToken.cs",
+              "RelativeToolTip": "BookCatalog\\Migrations\\20250210160219_erasedToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:02:20.447Z"
             },
             {
               "$type": "Document",
@@ -392,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 1,
               "Title": "BookPaginationController.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\BookPaginationController.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Controllers\\BookPaginationController.cs",
@@ -405,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "QueryExtension.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Pagination\\QueryExtension.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Pagination\\QueryExtension.cs",
@@ -413,12 +410,11 @@
               "RelativeToolTip": "BookCatalog\\Pagination\\QueryExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T14:16:43.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T14:16:43.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "PageResult.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Pagination\\PageResult.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Pagination\\PageResult.cs",
@@ -426,12 +422,11 @@
               "RelativeToolTip": "BookCatalog\\Pagination\\PageResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T14:10:07.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T14:10:07.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "PaginationModel.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Pagination\\PaginationModel.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Pagination\\PaginationModel.cs",
@@ -439,8 +434,7 @@
               "RelativeToolTip": "BookCatalog\\Pagination\\PaginationModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T14:00:21.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T14:00:21.606Z"
             },
             {
               "$type": "Document",
@@ -480,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "BookExampleUpdateDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_BookExample\\BookExampleUpdateDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_BookExample\\BookExampleUpdateDTO.cs",
@@ -488,12 +482,11 @@
               "RelativeToolTip": "BookCatalog\\DTOs\\DTOs_BookExample\\BookExampleUpdateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T17:50:33.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T17:50:33.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "UserDetailDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_User\\UserDetailDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_User\\UserDetailDTO.cs",
@@ -501,12 +494,11 @@
               "RelativeToolTip": "BookCatalog\\DTOs\\DTOs_User\\UserDetailDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T16:17:21.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T16:17:21.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "UserUpdateDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_User\\UserUpdateDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_User\\UserUpdateDTO.cs",
@@ -514,12 +506,11 @@
               "RelativeToolTip": "BookCatalog\\DTOs\\DTOs_User\\UserUpdateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T16:05:21.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T16:05:21.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_User\\UserDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_User\\UserDTO.cs",
@@ -527,12 +518,11 @@
               "RelativeToolTip": "BookCatalog\\DTOs\\DTOs_User\\UserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T16:04:51.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T16:04:51.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "UserMapper.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Mappers\\UserMapper.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Mappers\\UserMapper.cs",
@@ -540,12 +530,11 @@
               "RelativeToolTip": "BookCatalog\\Mappers\\UserMapper.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:57:41.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T15:57:41.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 6,
               "Title": "AuthorDetailDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_Author\\AuthorDetailDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_Author\\AuthorDetailDTO.cs",
@@ -558,20 +547,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "AuthorMapper.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Mappers\\AuthorMapper.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Mappers\\AuthorMapper.cs",
               "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Mappers\\AuthorMapper.cs",
               "RelativeToolTip": "BookCatalog\\Mappers\\AuthorMapper.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwDEAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCkAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T11:31:46.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "BookExampleDetailDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_BookExample\\BookExampleDetailDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_BookExample\\BookExampleDetailDTO.cs",
@@ -579,12 +568,11 @@
               "RelativeToolTip": "BookCatalog\\DTOs\\DTOs_BookExample\\BookExampleDetailDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T11:04:37.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T11:04:37.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "BookExampleCreateDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_BookExample\\BookExampleCreateDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_BookExample\\BookExampleCreateDTO.cs",
@@ -592,12 +580,11 @@
               "RelativeToolTip": "BookCatalog\\DTOs\\DTOs_BookExample\\BookExampleCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T11:01:32.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T11:01:32.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "BookExampleDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_BookExample\\BookExampleDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_BookExample\\BookExampleDTO.cs",
@@ -605,12 +592,11 @@
               "RelativeToolTip": "BookCatalog\\DTOs\\DTOs_BookExample\\BookExampleDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T10:16:49.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T10:16:49.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "BookDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_Book\\BookDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_Book\\BookDTO.cs",
@@ -618,12 +604,11 @@
               "RelativeToolTip": "BookCatalog\\DTOs\\DTOs_Book\\BookDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T10:06:38.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T10:06:38.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 8,
               "Title": "AuthorUpdateDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_Author\\AuthorUpdateDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_Author\\AuthorUpdateDTO.cs",
@@ -636,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 11,
               "Title": "AuthorDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_Author\\AuthorDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_Author\\AuthorDTO.cs",
@@ -671,33 +656,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 13,
               "Title": "BookUpdateDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_Book\\BookUpdateDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_Book\\BookUpdateDTO.cs",
               "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_Book\\BookUpdateDTO.cs",
               "RelativeToolTip": "BookCatalog\\DTOs\\DTOs_Book\\BookUpdateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T16:47:53.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "BookMapper.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Mappers\\BookMapper.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Mappers\\BookMapper.cs",
               "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Mappers\\BookMapper.cs",
               "RelativeToolTip": "BookCatalog\\Mappers\\BookMapper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T20:24:51.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 7,
               "Title": "AuthorCreateDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_Author\\AuthorCreateDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_Author\\AuthorCreateDTO.cs",
@@ -710,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "UserCreateDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_User\\UserCreateDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_User\\UserCreateDTO.cs",
@@ -718,12 +703,11 @@
               "RelativeToolTip": "BookCatalog\\DTOs\\DTOs_User\\UserCreateDTO.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAwwAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T15:19:54.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T15:19:54.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "BookDetailDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_Book\\BookDetailDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_Book\\BookDetailDTO.cs",
@@ -731,51 +715,49 @@
               "RelativeToolTip": "BookCatalog\\DTOs\\DTOs_Book\\BookDetailDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T14:46:13.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T14:46:13.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 14,
               "Title": "BookCreateDTO.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_Book\\BookCreateDTO.cs",
               "RelativeDocumentMoniker": "BookCatalog\\DTOs\\DTOs_Book\\BookCreateDTO.cs",
               "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\DTOs\\DTOs_Book\\BookCreateDTO.cs",
               "RelativeToolTip": "BookCatalog\\DTOs\\DTOs_Book\\BookCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T14:45:20.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T14:45:20.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 0,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Controllers\\UsersController.cs",
               "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\UsersController.cs",
               "RelativeToolTip": "BookCatalog\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAowBoAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwBoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T09:30:09.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 4,
               "Title": "BookExamplesController.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\BookExamplesController.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Controllers\\BookExamplesController.cs",
               "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\BookExamplesController.cs",
               "RelativeToolTip": "BookCatalog\\Controllers\\BookExamplesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T09:28:56.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Program.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Program.cs",
@@ -783,12 +765,11 @@
               "RelativeToolTip": "BookCatalog\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T18:43:14.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T18:43:14.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "BookExample.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\BookExample.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Models\\BookExample.cs",
@@ -801,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Author.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\Author.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Models\\Author.cs",
@@ -826,13 +807,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 2,
               "Title": "BooksController.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Controllers\\BooksController.cs",
               "ToolTip": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Controllers\\BooksController.cs",
               "RelativeToolTip": "BookCatalog\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T16:34:06.916Z",
               "EditorCaption": ""
@@ -858,8 +839,7 @@
               "RelativeToolTip": "BookCatalog\\Repositories\\BookRepository.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAmwCgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T16:12:28.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T16:12:28.699Z"
             },
             {
               "$type": "Document",
@@ -875,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\User.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Models\\User.cs",
@@ -883,12 +863,11 @@
               "RelativeToolTip": "BookCatalog\\Models\\User.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAYwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T17:30:55.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T17:30:55.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\Users\\Luky\\Desktop\\BookCatalog\\BookCatalog\\BookCatalog\\Models\\Book.cs",
               "RelativeDocumentMoniker": "BookCatalog\\Models\\Book.cs",
@@ -896,8 +875,7 @@
               "RelativeToolTip": "BookCatalog\\Models\\Book.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T17:09:48.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T17:09:48.309Z"
             }
           ]
         }

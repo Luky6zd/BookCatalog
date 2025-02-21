@@ -11,7 +11,7 @@ namespace BookCatalog.DTOs.DTOs_Book
         [Required]
         public string Title { get; set; } = null!;
         [Required]
-        public string Author { get; set; } = null!;
+        public List<int> AuthorIds { get; set; } = new List<int>();
 
         public string Genre { get; set; } = null!;
 

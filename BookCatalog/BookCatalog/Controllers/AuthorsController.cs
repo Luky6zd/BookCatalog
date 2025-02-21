@@ -64,7 +64,9 @@ namespace BookCatalog.Controllers
                 return BadRequest("Id not valid.");
             }
 
-            Author? author = await _context.Authors.FirstOrDefaultAsync(a => a.AuthorId == id);
+            Author? author = await _context.Authors
+                .Include(b => b.Books)
+                .FirstOrDefaultAsync(a => a.AuthorId == id);
 
             // if author doesn't exist
             if (author == null)

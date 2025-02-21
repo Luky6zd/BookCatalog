@@ -38,7 +38,8 @@ namespace BookCatalog.Mappers
             {
                 Name = dto.Name,
                 LastName = dto.LastName,
-                Email = dto.Email
+                Email = dto.Email,
+                Books = dto.BookIds.Select(id => new Book { BookId = id }).ToList()
             };
         }
 
